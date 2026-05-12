@@ -1,0 +1,71 @@
+﻿# Fichiers compilés Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Dossiers Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Dossiers IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+nbproject/
+nb-configuration.xml
+nbactions.xml
+*.nbattrs
+
+# Dossiers NetBeans spécifiques
+nbproject/private/
+build/
+dist/
+nbdist/
+
+# Fichiers de logs
+*.log
+*.log.gz
+
+# Fichiers de configuration sensibles
+*.properties
+!application.properties.example
+
+# Rapports générés par l'application
+Rapport_*.pdf
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Base de données locale (si présente)
+*.db
+*.sqlite
+*.sqlite3
+
+# Dossiers de backup
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
